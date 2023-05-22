@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    <link rel="icon" href="img/nervarien-dance.gif" type="image/gif" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+    
+    <span class="container">
+        <img src="img/logo.png" alt="Space invaders logo" class="logo">
+    </span>
+
+    <div class="container game-container-margin">
+        <table id="gameTable"></table>
+        <div class="controls">
+            <span class="game-controls">
+                    <button id="restart" onclick="restartTable()">New Game</button>
+                    <button id="skip" onclick="skipTurn()">Skip Turn</button>
+            </span>
+            <fieldset class="game-options" id="game-options">
+                <legend>Game Options</legend>
+                <span>
+                    <p>Column number</p>
+                    <input type="number" name="Column Number" id="col-num" placeholder="Column number" min="2" max="30">
+                </span>
+                <span>
+                    <p>Row number</p>
+                    <input type="number" name="Row Number" id="row-num" placeholder="Row Number" min="3" max="30">
+                </span>
+                <span>
+                    <p>Invaders drop min</p>
+                    <input type="number" name="Row Number" id="package-drop-min" placeholder="Drop min" min="1" max="30">
+                </span>
+                <span>
+                    <p>Invaders drop max</p>
+                    <input type="number" name="Row Number" id="package-drop-max" placeholder="Drop max" min="1" max="30">
+                </span>
+                <span>
+                    <p>Invader spawn chance %</p>
+                    <input type="number" name="Row Number" id="invader-spawn-chance" placeholder="Spawn chance" min="0" max="100">
+                </span>
+                <span>
+                    <p>Missile recharge turns</p>
+                    <input type="number" name="Row Number" id="missile-recharge-turns" placeholder="Recharge rate" min="0" max="10">
+                </span>
+                <button id="apply-options" onclick="applySettings()">Apply</button>
+            </fieldset>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

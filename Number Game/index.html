@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorta Block</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="game-name">Sorta Block</h1>
+        <table id="gameTable"></table>
+        <div class="move-count">Move count: <span id="move-count">0</span></div>
+        <button onclick="newGame()" class="new-game-btn">New game</button>
+
+        <fieldset class="game-options" id="game-options">
+            <legend>Game Options</legend>
+            <span>
+                <p>Column number</p>
+                <input type="number" name="Column Number" id="col-num" placeholder="Column number" min="2" max="30">
+            </span>
+            <span>
+                <p>Row number</p>
+                <input type="number" name="Row Number" id="row-num" placeholder="Row Number" min="2" max="30">
+            </span>
+            <button id="apply-options" onclick="applySettings()">Apply</button>
+        </fieldset>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+@font-face {
+    font-family: block;
+    src: url("img/VanillaDreamers-9Y7pK.otf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container tr, td{
+    border: 2px solid black;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.container td{
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    color: black !important;
+
+    padding: 10px;
+}
+
+#gameTable{
+    margin-top: 50px;
+    border-collapse: separate;
+
+    box-shadow: 0px 0px 30px red;
+}
+
+.zero{
+    background-color: orangered !important;
+    color: white !important;
+}
+
+.well-positioned{
+    background-color: green !important;
+    color: white !important;
+}
+
+.draggable{
+    background-color: rgb(255, 179, 0) !important;
+    color: white !important;
+}
+
+.game-name{
+    font-family: block;
+    font-size: 4rem;
+    margin-top: 50px;
+    color: white;
+}
+
+.new-game-btn{
+    width: 150px;
+    height: 25px;
+    font-weight: bolder;
+    font-size: 0.9rem;
+    background-color: rgb(229, 190, 18);
+    border-radius: 4px;
+    color: white;
+
+    transition: all .2s ease-in-out;
+
+    margin-top: 15px;
+}
+
+.new-game-btn:hover{
+    background-color: rgb(244, 153, 6);
+}
+
+.move-count{
+    font-family: fantasy;
+    font-size: 1.3rem;
+
+    margin-top: 5px;
+}
+
+.game-options{
+    border: 5px solid white;
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.661);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 20px;
+    margin-bottom: 50px;
+
+    background-color: rgba(0, 0, 0, 0.545);
+}
+
+.game-options legend{
+    font-family: fantasy;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.game-options span{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+.game-options span input{
+    width: 40%;
+}
+
+.game-options button{
+    padding: 3px;
+    background-color: orange;
+    transition: all .2s ease-in-out;
+}
+.game-options button:hover{
+    background-color: rgb(251, 101, 46);
+    transform: scale(1.02);
+}
+
+/*For phones and smaller screens*/
+@media (max-width: 640px)
+{
+
+    .container td{
+        width: 25px;
+        height: 25px;
+    
+        padding: 5px;
+        font-size: 0.9rem;
+    }
+
+    .container tr, td{
+        border: 1px solid black;
+    }
+
+    .game-name{
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+
+    #gameTable{
+        margin-top: 20px;
+        box-shadow: 0px 0px 15px red;
+    }
+
+    .move-count{
+        font-size: 1rem;
+    
+        margin-top: 10px;
+    }
+
+    .new-game-btn{
+        width: 100px;
+        height: 25px;
+        font-size: 0.8rem;
+    
+        margin-top: 10px;
+    }
+
+    .game-options *{
+        font-size: 0.8rem;
+    }
+
+    .game-options{
+        border: 3px solid white;
+        box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.661);
+        gap: 5px;
+        padding: 5px 10px;
+        margin-bottom: 25px;
+    }
+
+    .game-options span{
+        width: 230px;
+        gap: 5px;
+    }
+
+}
