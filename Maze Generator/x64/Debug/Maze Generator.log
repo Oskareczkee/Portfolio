@@ -1,0 +1,66 @@
+﻿  main.cpp
+P:\Visual Studio Programy\Maze Generator\Maze Generator.h(71,1): warning C4267: "argument": konwersja z "size_t" do "const int", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\Maze Generator.h(84,1): warning C4267: "argument": konwersja z "size_t" do "const int", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\Maze Generator.h(115,1): warning C4267: "argument": konwersja z "size_t" do "const int", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\Maze Generator.h(120,1): warning C4267: "argument": konwersja z "size_t" do "const int", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(26,1): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(27,1): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(30,107): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(30,58): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(54,63): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(54,42): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(55,27): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(55,21): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(62,63): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(62,42): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(63,32): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(63,21): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(70,52): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(70,33): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(71,38): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(71,26): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(78,52): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(78,33): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(79,27): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+P:\Visual Studio Programy\Maze Generator\MazeDrawer.h(79,21): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  Maze Generator.vcxproj -> P:\Visual Studio Programy\Maze Generator\x64\Debug\Maze Generator.exe
