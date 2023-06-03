@@ -15,7 +15,7 @@ You can of course download these files and check them on your own!
   + Web development (Currently learning ASP.NET Core MVC)
 - `Java`
   + Basic dekstop applications (Swing)
-- `HTML` `CSS` `JavaScript`
+- `HTML` `CSS` `JavaScript` `TypeScript`
   + Basic websites
   + Website games
 - `Databases`
