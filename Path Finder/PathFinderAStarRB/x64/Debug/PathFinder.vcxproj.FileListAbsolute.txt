@@ -1,0 +1,2 @@
+P:\Visual Studio Programy\PathFinder\x64\Debug\PathFinder.exe
+C:\Users\Hal9000\Desktop\PathFinderAStarRB\x64\Debug\PathFinder.exe
