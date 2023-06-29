@@ -18,3 +18,6 @@ FPS are limited to 2, to make feeling of turn based game. All actions are perfor
 ## Further development
 Further development is not planned. I would rather want to create custom project in Unity to learn it, rather than developing this. Still cool experience in writing my own usable rendering and
 interface to add new content.
+
+## Special Thanks
+Special thanks for Yersena for making graphics to this game
