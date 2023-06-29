@@ -1,0 +1,9 @@
+{
+ "test": "czy to sie parsuje",
+ "mapa test": {
+  "test": true,
+  "test2": false,
+  "test3": null,
+},
+ "tablica test" : [1,2,-20,"siema",-2137,2137]
+}

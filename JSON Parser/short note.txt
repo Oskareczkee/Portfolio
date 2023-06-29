@@ -1,0 +1,6 @@
+parser pretty much works perfectly, got max points for it.
+If you wish to use it, JPath has few little problems and saving as well.
+Propably caused by lack of tests and time to implement it well and test.
+
+And I don't know if empty Arrays/Maps are allowed and just values like string or number
+Everything else pretty much works perfecty
