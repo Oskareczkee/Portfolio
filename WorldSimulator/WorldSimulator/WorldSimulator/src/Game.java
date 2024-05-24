@@ -1,14 +1,17 @@
 import javax.swing.*;
 import Game.GamePanel;
+import Game.Logger;
 
 
 public class Game extends JFrame
 {
+
+    //generated automatically by intelliJ
     private JPanel mainPanel;
-    private JTextPane consoleLog;
     private JPanel gamePanel;
-    private JTextField textField1;
     private GamePanel Game;
+    private JScrollPane LogPanel;
+    private JEditorPane Log;
 
     public Game()
     {
@@ -16,13 +19,15 @@ public class Game extends JFrame
         setTitle("World simulator");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
-        //setResizable(false);
+        setResizable(false);
         pack();
+
     }
 
     public static void main(String args[])
     {
         Game game = new Game();
         game.Game.startGameThread();
+        game.Game.setupConsole(game.Log);
     }
 }

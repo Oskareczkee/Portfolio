@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WorldSimulator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WorldSimulator_jar</output-path>
+    <root id="archive" name="WorldSimulator.jar">
+      <element id="module-output" name="WorldSimulator" />
+    </root>
+  </artifact>
+</component>
